@@ -1,5 +1,6 @@
-package com.github.igabaydulin.aspect.sample.controller.aspect;
+package com.github.igabaydulin.aspect.sample.configuration.logging.aspect;
 
+import com.github.igabaydulin.aspect.sample.configuration.logging.LogMapping;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
@@ -26,6 +27,7 @@ public class RequestLoggingAspect {
         HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();
 
         if (logMapping.value().equals("logging")) {
+            log.info("log aspect is executed");
             request
                     .getParameterMap()
                     .forEach((key, value) -> log

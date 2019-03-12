@@ -1,4 +1,4 @@
-package com.github.igabaydulin.aspect.sample.controller.aspect;
+package com.github.igabaydulin.aspect.sample.configuration.logging;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
