@@ -1,4 +1,5 @@
 # simple-aspect-example [![Version](https://img.shields.io/badge/Version-0.1-color.svg)](https://github.com/igabaydulin/simple-aspect-example) [![Version](https://img.shields.io/badge/Java-OpenJDK%2011.0.1-dd0000.svg?logo=java)](https://jdk.java.net/11/) [![Version](https://img.shields.io/badge/Gradle-5.2.1-1ba8cb.svg)](https://docs.gradle.org/5.2.1/release-notes.html) [![Version](https://img.shields.io/badge/Spring%20Boot-2.1.3.RELEASE-color.svg)](https://github.com/spring-projects/spring-boot/releases/tag/v2.1.3.RELEASE)
+Implementation example for aspects in Spring; also shows difference beetween Spring's aspects and Spring's interceptors (based on Stackoverflow's [question](https://stackoverflow.com/questions/28975025/advise-controller-method-before-valid-annotation-is-handled))
 ## Gradle
 * Application execution by Spring Boot Gradle plugin:
     ```
